@@ -77,5 +77,8 @@
     "url": "https://github.com/infinitered/nsfwjs/issues"
   },
   "homepage": "https://nsfwjs.com",
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  }
 }

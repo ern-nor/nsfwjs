@@ -63,8 +63,8 @@ const availableModels: ModelConfig = {
   },
 };
 
-const DEFAULT_MODEL_NAME: ModelName = "MobileNetV2";
-const IMAGE_SIZE = 224; // default to Mobilenet v2
+const DEFAULT_MODEL_NAME: ModelName = "InceptionV3";
+const IMAGE_SIZE = 299; // default to InceptionV3
 
 const getGlobal = () => {
   if (typeof globalThis !== "undefined")

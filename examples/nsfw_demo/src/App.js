@@ -32,7 +32,7 @@ class App extends Component {
     loading: true,
     fileType: null,
     hardReset: false,
-    currentModelName: 'MobileNetV2Mid',
+    currentModelName: 'InceptionV3',
   }
 
   componentDidMount() {
